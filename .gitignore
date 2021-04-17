@@ -1,0 +1,8 @@
+*.pyc
+*.DS_Store
+*.sh
+*.cmd
+*.gz
+*.zip
+
+__pycache__
