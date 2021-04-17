@@ -1,0 +1,121 @@
+{
+    "af": {
+        "base_fn": "data/af_afribooms-ud-train.conllu",
+        "train_fn": "data/af_afribooms-ud-train-800.conllu",
+        "dev_fn": "data/af_afribooms-ud-dev.conllu",
+        "test_fn": "data/af_afribooms-ud-test.conllu",
+        "stats_xml_fn": "data/xml/af_stats.xml",
+        "model_fn": "af",
+        "data_params": {
+            "lang": "af",
+            "feats_fn": "data/af_feats",
+            "vocab_fn": "data/af_vocab",
+            "bert_fn": "bert/af"
+        }
+    },
+    "ar": {
+        "test_fn": "data/ar_padt-ud-test.conllu"
+    },
+    "es": {
+        "base_fn": "data/es_ancora-ud-train.conllu",
+        "train_fn": "data/es_ancora-ud-train-800.conllu",
+        "dev_fn": "data/es_ancora-ud-dev.conllu",
+        "test_fn": "data/es_ancora-ud-test.conllu",
+        "stats_xml_fn": "data/xml/es_stats.xml",
+        "model_fn": "es",
+        "data_params": {
+            "lang": "es",
+            "feats_fn": "data/es_feats",
+            "vocab_fn": "data/es_vocab",
+            "bert_fn": "bert/es"
+        }
+    },
+    "fi": {
+        "base_fn": "data/fi_tdt-ud-train.conllu",
+        "train_fn": "data/fi_tdt-ud-train-800.conllu",
+        "dev_fn": "data/fi_tdt-ud-dev.conllu",
+        "test_fn": "data/fi_tdt-ud-test.conllu",
+        "stats_xml_fn": "data/xml/fi_stats.xml",
+        "model_fn": "fi",
+        "data_params": {
+            "lang": "fi",
+            "feats_fn": "data/fi_feats",
+            "vocab_fn": "data/fi_vocab",
+            "bert_fn": "bert/fi"
+        }
+    },
+    "he": {
+        "base_fn": "data/he_htb-ud-train.conllu",
+        "train_fn": "data/he_htb-ud-train-800.conllu",
+        "dev_fn": "data/he_htb-ud-dev.conllu",
+        "test_fn": "data/he_htb-ud-test.conllu",
+        "stats_xml_fn": "data/xml/he_stats.xml",
+        "model_fn": "he",
+        "data_params": {
+            "lang": "he",
+            "feats_fn": "data/he_feats",
+            "vocab_fn": "data/he_vocab",
+            "bert_fn": "bert/he"
+        }
+    },
+    "hr": {
+        "base_fn": "data/hr_set-ud-train.conllu",
+        "train_fn": "data/hr_set-ud-train-800.conllu",
+        "dev_fn": "data/hr_set-ud-dev.conllu",
+        "test_fn": "data/hr_set-ud-test.conllu",
+        "stats_xml_fn": "data/xml/hr_stats.xml",
+        "model_fn": "hr",
+        "data_params": {
+            "lang": "hr",
+            "feats_fn": "data/hr_feats",
+            "vocab_fn": "data/hr_vocab",
+            "bert_fn": "bert/hr"
+        }
+    },
+    "ko": {
+        "base_fn": "data/ko_pud-ud-test.conllu",
+        "train_fn": "data/ko_pud-ud-train-800.conllu",
+        "dev_fn": "data/ko_pud-ud-dev-100.conllu",
+        "test_fn": "data/ko_pud-ud-test-100.conllu",
+        "stats_xml_fn": "data/xml/ko_stats.xml",
+        "model_fn": "ko",
+        "data_params": {
+            "lang": "ko",
+            "feats_fn": "data/ko_feats",
+            "vocab_fn": "data/ko_vocab",
+            "bert_fn": "bert/ko"
+        }
+    },
+    "ko_test": {
+        "test_fn": "data/ko_pud-ud-test.conllu"
+    },
+    "mr": {
+        "test_fn": "data/mr_ufal-ud-test.conllu"
+    },
+    "sl": {
+        "test_fn": "data/sl_sst-ud-test.conllu"
+    },
+    "tl": {
+        "test_fn": "data/tl_trg-ud-test.conllu"
+    },
+    "tr": {
+        "base_fn": "data/tr_imst-ud-train.conllu",
+        "train_fn": "data/tr_imst-ud-train-800.conllu",
+        "dev_fn": "data/tr_imst-ud-dev.conllu",
+        "test_fn": "data/tr_imst-ud-test.conllu",
+        "stats_xml_fn": "data/xml/tr_stats.xml",
+        "model_fn": "tr",
+        "data_params": {
+            "lang": "tr",
+            "feats_fn": "data/tr_feats",
+            "vocab_fn": "data/tr_vocab",
+            "bert_fn": "bert/tr"
+        }
+    },
+    "yo": {
+        "test_fn": "data/yo_ytb-ud-test.conllu"
+    },
+    "zh": {
+        "test_fn": "data/zh_pud-ud-test.conllu"
+    }
+}

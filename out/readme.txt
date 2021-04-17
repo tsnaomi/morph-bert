@@ -1,0 +1,1 @@
+As an example, this directory contains the out file from training a Hebrew probe on BERT-6.
